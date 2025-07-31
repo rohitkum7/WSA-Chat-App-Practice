@@ -5,7 +5,7 @@ import { clerkMiddleware, requireAuth } from "@clerk/express";
 import messageRoutes from "./routes/messageRoutes.js";
 
 const app = express();
-app.use(cors());
+// app.use(cors());
 app.use(
   cors({
     origin: "http://localhost:5173", // Example - your frontend's origin
